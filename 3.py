@@ -4,6 +4,6 @@ tasks = 'домашние задания'
 tasks_num = 12
 watch = 'затрачено часов '
 watch_num = 1.5
-watch1 = 'среднее время на задание'
-watch1_num1 = watch_num / tasks_num
-print (name,(';'),course,(';'), tasks,(';'), watch,(';'),  watch1 , watch1_num1 )
+watch_n = 'среднее время на задание'
+watch_num_n = watch_num / tasks_num
+print("имя", name,(';'), course,(';'), tasks, tasks_num, (';'),  watch, watch_num, (';'), watch_n, watch_num_n)
